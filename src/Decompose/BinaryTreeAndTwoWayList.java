@@ -50,7 +50,8 @@ public class BinaryTreeAndTwoWayList {
             right.left = pRootOfTree;
             pRootOfTree.right = right;
         }
-        return left != null ? left : right;
+        return null;
+        //return left != null ? left : right;
     }
 
 }
